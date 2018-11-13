@@ -1,0 +1,21 @@
+body{
+	background-color:white;
+	background-image:url(../img/fond.jpg);
+	background-attachment:fixed;
+}
+
+h1{
+	text-align: center;
+}
+
+h1 + p{
+	text-align: center;
+}
+
+h2{
+	color: maroon;
+}
+
+
+
+
