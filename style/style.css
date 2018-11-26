@@ -1,21 +1,103 @@
-body{
-	background-color:white;
-	background-image:url(../img/fond.jpg);
-	background-attachment:fixed;
+body {
+	background: #eae8e7;
+	color: #767270;
+	padding: 1%;
+	font-size: 1.0em;
+	font-family: verdana, sans-serif;
 }
 
-h1{
-	text-align: center;
+.sidebar {
+	width:27%;
+	display: inline-block;
+	margin-left: 10%;
+	background: #1167b7;
+	color: white;
 }
+.profile-image {
 
-h1 + p{
-	text-align: center;
-}
+	width: 100%;
+	/*essai image ronde
+	position: center;
+	border-radius: 50%;
+  	margin-left: 50px;
+  	margin-top: 50px;
+  	*/
+  }
 
-h2{
-	color: maroon;
-}
+  .sidebar-top { 
+  	position: relative; 
+  }
+
+  .profile-name {
+  	position: relative;
+  	text-align: center;
+  }
+
+  .button{
+  	border-radius: 5px;
+  	padding: 5px 5px;
+  	text-decoration: none;
+  	text-align: center;
+  	color: #fff;
+  	display: inline-block;
+  	background-color: #1c5887;
+  	box-shadow: 0px 5px 0px 0px #144164;
+  }
+
+  #button1{
+
+  	margin-left: 24%;
+  }
+
+  .button:hover{
+  	background-color: #206499;
+  	box-shadow: 0px 5px 0px 0px #1b4d73;
+  }
+
+  .profile-info {
+  	padding: 20px 10px;
+  	border-bottom: 1px solid #FFF;
+  }
+
+  .profile-info .key{
+  	font-weight: bold;	
+  }
+
+  .profile-info p{
+  	margin-left: 5%;
+  	display: inline-block;
+  	vertical-align: top;
+  }
+
+  #button2{
+  	margin-left: 35%;
+  }
+
+  .content {
+  	width: 48%;
+  	margin-left: 2%;
+  	display: inline-block;
+  	vertical-align: top;
+  }
+
+  .work-experience, .education, .project {
+  	margin-bottom: 30px;
+  	padding: 5% 2% 5% 10%;
+  	background: white;
+  	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  }
+
+  .info {
+  	padding: 2% 1%;
+  	border-bottom: 1px solid #bdbdbd;
+  }
 
 
+  .sub-heading { 
+  	font-weight: bold;       
+  }
 
-
+  .duration, .language{
+  	color: #5da4d9;
+  	font-size: 1.0em;
+  }
