@@ -16,7 +16,7 @@ body {
 .profile-image {
 
 	width: 100%;
-	/*essai image ronde
+	/*test image ronde
 	position: center;
 	border-radius: 50%;
   	margin-left: 50px;
@@ -56,7 +56,7 @@ body {
 
   .profile-info {
   	padding: 20px 10px;
-  	border-bottom: 1px solid #FFF;
+  	border-bottom: 1px solid #bdbdbd;
   }
 
   .profile-info .key{
@@ -80,7 +80,7 @@ body {
   	vertical-align: top;
   }
 
-  .work-experience, .education, .project {
+  #work-experience, #education, #project, #skills{
   	margin-bottom: 30px;
   	padding: 5% 2% 5% 10%;
   	background: white;
@@ -101,3 +101,101 @@ body {
   	color: #5da4d9;
   	font-size: 1.0em;
   }
+
+#skills ul {
+	margin-top: 7%;
+  list-style-type: none;
+  font-weight: bold;  
+}
+
+.slide {
+  height: 1.3em;
+  width: 93%;
+  border: .1em solid #2D2D2D;
+  border-radius: 3px;
+  display: inline-block;
+  margin: .5em 0 1em;
+  text-align: center;
+}
+
+#java {
+	height: 1.3em;
+  width: 70%;
+  background: #1c5887;
+  display: block;
+}
+
+#c {
+ height: 1.3em;
+  width: 60%;
+  background: #1c5887;
+  display: block;
+}
+
+#html {
+ height: 1.3em;
+  width: 60%;
+  background: #1c5887;
+  display: block;
+}
+
+#css {
+  height: 1.3em;
+  width: 60%;
+  background: #1c5887;
+  display: block;
+}
+
+#sqlite {
+ height: 1.3em;
+  width: 50%;
+  background: #1c5887;
+  display: block;
+}
+
+#cobol {
+ height: 1.3em;
+  width: 40%;
+  background: #1c5887;
+  display: block;
+}
+
+#shell {
+  height: 1.3em;
+  width: 40%;
+  background: #1c5887;
+  display: block;
+}
+
+#javascript {
+  height: 1.3em;
+  width: 30%;
+  background: #1c5887;
+  display: block;
+}
+
+#skills:hover #java,
+#skills:hover #c,
+#skills:hover #html,
+#skills:hover #css,
+#skills:hover #sqlite,
+#skills:hover #cobol,
+#skills:hover #shell,
+#skills:hover #javascript {
+  	
+  	animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+}
+.PercentText{
+	padding-right: 5%;
+    float: right;
+    color: #FFF;
+  }
+
+
+
